@@ -15,7 +15,7 @@ spec:
           # Replace `quay.io/example-org/rok8s-scripts-test`
           #   with your image repository
           # `latest` will be replaced with $CI_SHA1 by k8s-deploy
-          image: quay.io/example-org/rok8s-scripts-test:latest
+          image: quay.io/steviec/ci-test:latest
           ports:
           - containerPort: 8080
             name: http
